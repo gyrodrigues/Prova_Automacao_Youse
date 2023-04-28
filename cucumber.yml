@@ -1,0 +1,3 @@
+default: --no-source --color --format pretty
+diario: -t @login -t @produtos
+report:  -f html -o evidencia.html
